@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deal-screener"
+version = "0.1.0"
+description = "AI research agent that turns a company URL into a sourced one-page VC/PE screening memo."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = [
+    "claude-agent-sdk>=0.2.100",
+    "pydantic>=2.6",
+    "beautifulsoup4>=4.12",
+    "reportlab>=4.0",
+]
+
+[project.optional-dependencies]
+ui = ["streamlit>=1.35"]
+dev = ["pytest>=8", "pytest-asyncio>=0.23", "streamlit>=1.35"]
+
+[project.scripts]
+deal-screener = "deal_screener.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["deal_screener*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
