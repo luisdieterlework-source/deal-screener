@@ -1,0 +1,323 @@
+{
+  "company_name": "Stripe",
+  "website": "https://stripe.com",
+  "as_of": "2026-11-04",
+  "one_liner": "Programmable financial infrastructure for internet businesses: payments, billing, tax and treasury APIs, now extending into stablecoins and agentic commerce.",
+  "snapshot": {
+    "what_they_do": {
+      "text": "API-first payments platform that also sells a Revenue suite (Billing, Invoicing, Tax, etc.) and stablecoin infrastructure through Bridge and Privy.",
+      "sources": [
+        1,
+        11,
+        12
+      ]
+    },
+    "business_model": {
+      "text": "Mostly usage-based fees on payment volume plus software fees; the Revenue suite was said to be on track for a ~$1B annual run rate (2025 letter, Feb 2026). Net revenue is not publicly disclosed; Sacra estimates ~$6.9B for 2025.",
+      "sources": [
+        1,
+        8
+      ]
+    },
+    "customers": {
+      "text": "Says it powers more than 5 million businesses directly or via platforms, including the top AI companies (2025 letter, Feb 2026).",
+      "sources": [
+        1
+      ]
+    },
+    "stage": {
+      "text": "Late-stage private and profitable (company-stated for 2025); valued at $159B in a Feb 2026 employee tender offer, with management saying there is no rush to IPO (Jan 2026).",
+      "sources": [
+        1,
+        2,
+        7
+      ]
+    },
+    "location": {
+      "text": "Dual-headquartered in South San Francisco, California and Dublin, Ireland; founded in 2010 by Patrick and John Collison.",
+      "sources": [
+        6
+      ]
+    },
+    "funding": {
+      "text": "Last primary round: $6.5B Series I at a $50B valuation (Mar 2023), bringing total raised to about $8.7B; since then, secondary tender offers (most recently $159B, Feb 2026, led by Thrive, Coatue and a16z).",
+      "sources": [
+        4,
+        5,
+        3
+      ]
+    }
+  },
+  "market": [
+    {
+      "text": "McKinsey (Sep 2025) estimates global payments revenue at ~$2.5T on ~$2.0 quadrillion of value flows, growing ~4%/yr after a slowdown in 2024.",
+      "sources": [
+        13
+      ]
+    },
+    {
+      "text": "Stripe's 2025 TPV was ~$1.9T, up 34% YoY, or about 1.6% of global GDP, so it is still taking share in a slow-growing pool.",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "text": "Stablecoin payment volume roughly doubled to ~$400B in 2025, an estimated 60% of it B2B, which opens a new rail Stripe is building into.",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "text": "Agentic commerce is emerging: Stripe co-developed the Agentic Commerce Protocol with OpenAI and powers Instant Checkout in ChatGPT (Sep 2025).",
+      "sources": [
+        9
+      ]
+    }
+  ],
+  "competitors": [
+    {
+      "name": "Adyen",
+      "note": "Public, enterprise-focused rival; FY2025 processed volume ~EUR 1.39T and net revenue ~EUR 2.36B, growing more slowly than Stripe.",
+      "sources": [
+        21
+      ]
+    },
+    {
+      "name": "PayPal (Braintree)",
+      "note": "Incumbent with ~$1.79T 2025 TPV; Braintree unbranded processing gave up volume in H1 2025 to focus on profitable growth.",
+      "sources": [
+        20,
+        22
+      ]
+    },
+    {
+      "name": "Checkout.com",
+      "note": "Enterprise and platform challenger: $12B internal valuation (Sep 2025) and $300B+ processed in 2025, up 64% YoY.",
+      "sources": [
+        18,
+        19
+      ]
+    }
+  ],
+  "thesis": [
+    {
+      "text": "Scale and growth together: TPV grew from ~$1.4T (2024) to ~$1.9T (2025), with the company profitable.",
+      "sources": [
+        23,
+        1
+      ]
+    },
+    {
+      "text": "Expanding beyond payments: a ~$1B run-rate Revenue suite raises take rate and switching costs beyond processing alone.",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "text": "Early position in stablecoin rails, built from the $1.1B Bridge acquisition, Privy wallets, the Tempo L1 (mainnet Mar 2026) and a conditionally approved OCC trust charter (Feb 2026).",
+      "sources": [
+        12,
+        11,
+        10,
+        15
+      ]
+    },
+    {
+      "text": "Default processor for the AI wave: it serves top AI companies and co-authored the Agentic Commerce Protocol with OpenAI.",
+      "sources": [
+        1,
+        9
+      ]
+    }
+  ],
+  "risks": [
+    {
+      "text": "Opaque financials: net revenue, take rate and margins are undisclosed, and third-party estimates (e.g. Sacra) are the only revenue figures.",
+      "sources": [
+        8
+      ]
+    },
+    {
+      "text": "Valuation: $159B (Feb 2026) is ~3x the $50B Series I mark and ~74% above the prior year's tender, leaving little room for a growth slowdown.",
+      "sources": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "text": "Take-rate pressure: McKinsey flags agentic and autonomous payments as a threat to card fee revenue, and Adyen and Checkout.com compete hard for enterprise volume.",
+      "sources": [
+        13,
+        18
+      ]
+    },
+    {
+      "text": "Regulatory and crypto exposure: the bank lobby group ICBA opposed Bridge's national trust charter, and stablecoin businesses add compliance and reputational risk.",
+      "sources": [
+        16,
+        14
+      ]
+    },
+    {
+      "text": "Red flag (minor): a 300-role (~3.5%) cut in Jan 2025, even though the company planned to keep growing headcount.",
+      "sources": [
+        17
+      ]
+    }
+  ],
+  "acquirers": [
+    {
+      "name": "IPO / public markets",
+      "reason": "The most plausible exit at this size, though the Collisons say there is no rush to list (Jan 2026).",
+      "sources": [
+        7
+      ]
+    },
+    {
+      "name": "Thrive Capital, Coatue, a16z",
+      "reason": "Main buyers in the Feb 2026 tender, likely to keep providing private liquidity.",
+      "sources": [
+        3
+      ]
+    },
+    {
+      "name": "GIC / Temasek (sovereign funds)",
+      "reason": "Joined the 2023 Series I; natural buyers of large pre-IPO secondary blocks.",
+      "sources": [
+        4
+      ]
+    },
+    {
+      "name": "Visa or Mastercard",
+      "reason": "Analytical: a strategic stake or partnership in network-adjacent rails (stablecoins, agentic tokens); a full acquisition is unlikely given size and antitrust.",
+      "sources": []
+    }
+  ],
+  "open_questions": [
+    "What were 2025 net revenue, take rate and non-GAAP operating margin, and how did they split between payments and the Revenue suite?",
+    "How concentrated is TPV among the top 20 customers and platforms, and what is net revenue retention by segment?",
+    "How much revenue do stablecoins (Bridge, Tempo) bring in today, and what is the path to material contribution?",
+    "How does take rate on AI-company and agentic (ACP) volume compare with traditional e-commerce?",
+    "What is the status of Bridge's OCC charter after the Feb 2026 conditional approval, and which capabilities depend on it?",
+    "What would trigger an IPO decision, and how often will tender offers continue?",
+    "Where is Stripe losing enterprise deals to Adyen or Checkout.com, and on what criteria?"
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "title": "Stripe publishes 2025 annual letter and announces tender offer (Stripe Newsroom, Feb 2026)",
+      "url": "https://stripe.com/newsroom/news/stripe-2025-update"
+    },
+    {
+      "id": 2,
+      "title": "Stripe Hits $159 Billion Valuation as Payment Volume Soars (Bloomberg, 2026-02-24)",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-24/stripe-hits-159-billion-valuation-as-payment-volume-soars"
+    },
+    {
+      "id": 3,
+      "title": "Stripe valuation jumps to $159 billion on back of tender offer (The Block, 2026-02-24)",
+      "url": "https://www.theblock.co/post/391075/stripe-valuation-jumps-to-159-billion-on-back-of-tender-offer"
+    },
+    {
+      "id": 4,
+      "title": "Fintech Stripe Raises $6.5 Billion at $50 Billion Valuation (Crowdfund Insider, Mar 2023)",
+      "url": "https://www.crowdfundinsider.com/2023/03/203780-fintech-stripe-raises-6-5-billion-at-50-billion-valuation-a-big-drop-from-prior-round/"
+    },
+    {
+      "id": 5,
+      "title": "Stripe raises $6.5 billion in Series I funding to hit $50 billion valuation (Nairametrics, 2023-03-16)",
+      "url": "https://nairametrics.com/2023/03/16/stripe-raises-6-5-billion-in-series-i-funding-to-hit-50-billion-valuation/"
+    },
+    {
+      "id": 6,
+      "title": "Stripe, Inc. (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Stripe,_Inc."
+    },
+    {
+      "id": 7,
+      "title": "Stripe's Collison Says No Rush for Payment Firm to Go Public (Bloomberg, 2026-01-20)",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-20/stripe-s-collison-says-no-rush-for-payment-firm-to-go-public"
+    },
+    {
+      "id": 8,
+      "title": "Stripe research (Sacra)",
+      "url": "https://sacra.com/research/stripe"
+    },
+    {
+      "id": 9,
+      "title": "Stripe powers Instant Checkout in ChatGPT and releases Agentic Commerce Protocol (Stripe Newsroom, Sep 2025)",
+      "url": "https://stripe.com/newsroom/news/stripe-openai-instant-checkout"
+    },
+    {
+      "id": 10,
+      "title": "Stripe deploys Tempo blockchain to mainnet, introduces Machine Payments Protocol (Bankless, Mar 2026)",
+      "url": "https://www.bankless.com/read/news/stripe-deploys-tempo-blockchain-to-mainnet-introduces-machine-payments-protocol.md"
+    },
+    {
+      "id": 11,
+      "title": "Stripe acquires crypto wallet provider Privy (Blockworks, Jun 2025)",
+      "url": "https://blockworks.co/news/stripe-acquires-privy-wallet"
+    },
+    {
+      "id": 12,
+      "title": "Stripe continues crypto push with Privy acquisition (FinTech Futures, Jun 2025)",
+      "url": "https://www.fintechfutures.com/m-a/stripe-continues-crypto-push-with-privy-acquisition"
+    },
+    {
+      "id": 13,
+      "title": "The 2025 McKinsey Global Payments Report: Competing systems, contested outcomes (McKinsey, Sep 2025)",
+      "url": "https://www.mckinsey.com/industries/financial-services/our-insights/global-payments-report"
+    },
+    {
+      "id": 14,
+      "title": "Bridge National Trust Bank charter application (OCC, 2025-10-14)",
+      "url": "https://www.occ.gov/topics/charters-and-licensing/public-comment/bridge-national-trust-bank.pdf"
+    },
+    {
+      "id": 15,
+      "title": "Bridge (Stripe) receives OCC approval for national trust bank (Cointelegraph, Feb 2026)",
+      "url": "https://cointelegraph.com/news/bridge-stripe-occ-approval-national-trust-bank"
+    },
+    {
+      "id": 16,
+      "title": "ICBA urges OCC to reject Stripe's national trust bank charter application (ICBA)",
+      "url": "https://www.icba.org/w/icba-urges-occ-to-reject-stripe-s-national-trust-bank-charter-application"
+    },
+    {
+      "id": 17,
+      "title": "Stripe cuts 300 employees (Banking Dive, Jan 2025)",
+      "url": "https://www.bankingdive.com/news/stripe-cuts-300-employees/737977/"
+    },
+    {
+      "id": 18,
+      "title": "Checkout.com announces employee share buy back and a new $12bn valuation (Checkout.com Newsroom, Sep 2025)",
+      "url": "https://www.checkout.com/newsroom/checkout-com-accelerates-towards-full-year-profitability-and-announces-employee-share-buy-back-and-a-new-12bn-valuation"
+    },
+    {
+      "id": 19,
+      "title": "Checkout.com Annual Letter 2025",
+      "url": "https://www.checkout.com/guides-and-reports/annual-letter-2025"
+    },
+    {
+      "id": 20,
+      "title": "PayPal Holdings, Inc. Form 10-K FY2025 (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm"
+    },
+    {
+      "id": 21,
+      "title": "Adyen Reports 21% Revenue Growth for Second Half of 2025 (Tiger Brokers news)",
+      "url": "https://www.itiger.com/hant/news/1131997847"
+    },
+    {
+      "id": 22,
+      "title": "PayPal FY 2025: $1.79 Trillion TPV Masks Shrinking Take Rates (Panabee)",
+      "url": "https://www.panabee.com/news/paypal-earnings-2025-annual"
+    },
+    {
+      "id": 23,
+      "title": "Stripe's total payment volume reaches $1.4T (FF News, 2025-02-28)",
+      "url": "https://ffnews.com/blog/2025/02/28/stripes-total-payment-volume-reaches-1-4t-as-long-standing-investments-in-ai-pay-off"
+    }
+  ]
+}

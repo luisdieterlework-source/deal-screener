@@ -1,0 +1,6 @@
+# Used by Streamlit Community Cloud. Mirrors pyproject.toml.
+claude-agent-sdk>=0.2.100
+pydantic>=2.6
+beautifulsoup4>=4.12
+reportlab>=4.0
+streamlit>=1.35
