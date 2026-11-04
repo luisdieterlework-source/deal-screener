@@ -58,7 +58,7 @@ def render_pdf(memo: Memo) -> bytes:
     buf = io.BytesIO()
     doc = SimpleDocTemplate(
         buf, pagesize=A4, leftMargin=15 * mm, rightMargin=15 * mm, topMargin=12 * mm, bottomMargin=12 * mm,
-        title=f"Screening memo: {memo.company_name}", author="Deal Screener",
+        title=f"Screening memo: {memo.company_name}", author="Deal Screener", invariant=True,
     )
     s = memo.snapshot
     flow: list = [
