@@ -1,0 +1,341 @@
+{
+  "company_name": "Notion",
+  "website": "https://www.notion.com",
+  "as_of": "2026-11-04",
+  "one_liner": "AI-first connected workspace (docs, wikis, projects, agents) with 100M+ users, ~$600M+ ARR and cash-flow positive, valued at $11B in a Jan-2026 tender.",
+  "snapshot": {
+    "what_they_do": {
+      "text": "Notion makes an all-in-one workspace for notes, docs, wikis and project databases. Since Notion 3.0 (Sep 2025) it has added AI agents, and Custom Agents became generally available on May 4, 2026.",
+      "sources": [
+        3,
+        8,
+        12
+      ]
+    },
+    "business_model": {
+      "text": "Freemium, seat-based SaaS (Free, Plus, Business, Enterprise), with Notion AI included in the Business plan at about $20/user/month. Custom Agents are billed on top through usage-based credits at $10 per 1,000 monthly credits, for Business and Enterprise only.",
+      "sources": [
+        9,
+        15
+      ]
+    },
+    "customers": {
+      "text": "More than 100M users as of June 2026, from individuals to enterprises. More than 50% of ARR came from AI-enabled customers at end-2025. No breakdown of paying customers or enterprise share is disclosed.",
+      "sources": [
+        1,
+        7
+      ]
+    },
+    "stage": {
+      "text": "Late-stage private company. It named its first board of directors (five outside members, including Sequoia's Pat Grady and ex-VMware CFO Jonathan Chadwick) in June 2026. Bloomberg reported in Dec 2025 that it could consider an IPO as early as end-2026. No public S-1 has been confirmed.",
+      "sources": [
+        5,
+        6
+      ]
+    },
+    "location": {
+      "text": "Headquartered in San Francisco, founded in 2013 by Ivan Zhao and Simon Last, with more than ten offices worldwide as of 2026.",
+      "sources": [
+        7,
+        12
+      ]
+    },
+    "funding": {
+      "text": "About $330M of primary capital raised in total. The last primary round was a $275M Series C at a $10B valuation (Oct 2021, led by Coatue and Sequoia). A $270M secondary employee tender at an $11B valuation followed (Jan 2026, GIC, Sequoia, Index).",
+      "sources": [
+        1,
+        4,
+        17
+      ]
+    }
+  },
+  "market": [
+    {
+      "text": "Grand View Research sizes knowledge-management software at $20.15B (2024) and projects $62.15B by 2033. This is a third-party estimate, and other firms' figures vary widely.",
+      "sources": [
+        16
+      ]
+    },
+    {
+      "text": "AI is changing how the category makes money. At Notion, more than half of ARR came from AI-enabled customers by end-2025, and agents are moving pricing from per-seat toward usage-based credits.",
+      "sources": [
+        1,
+        9
+      ]
+    },
+    {
+      "text": "Incumbents are bundling AI into existing suites. Atlassian includes its Rovo assistant in paid Confluence tiers, and Microsoft positions Loop for Microsoft 365 customers. This raises the bar for paid AI add-ons.",
+      "sources": [
+        14,
+        15
+      ]
+    },
+    {
+      "text": "The category is consolidating. Grammarly acquired Coda (Dec 2024) and made Coda's CEO, Shishir Mehrotra, Grammarly's CEO.",
+      "sources": [
+        13
+      ]
+    }
+  ],
+  "competitors": [
+    {
+      "name": "Microsoft (Loop / Microsoft 365 Copilot)",
+      "note": "Microsoft's answer to Notion: distribution advantage in M365 enterprises, though reviewers call Loop less mature.",
+      "sources": [
+        3,
+        14
+      ]
+    },
+    {
+      "name": "Atlassian Confluence (+ Rovo)",
+      "note": "Enterprise wiki standard with more structure and Atlassian-ecosystem lock-in, and AI bundled into paid tiers.",
+      "sources": [
+        15,
+        20
+      ]
+    },
+    {
+      "name": "Coda (Grammarly)",
+      "note": "Closest feature-for-feature doc/database alternative, now backed by Grammarly's distribution.",
+      "sources": [
+        13,
+        20
+      ]
+    },
+    {
+      "name": "ClickUp",
+      "note": "Overlaps on projects and docs but is positioned project-management-first.",
+      "sources": [
+        20
+      ]
+    },
+    {
+      "name": "Google Workspace",
+      "note": "Bundled Docs/Drive incumbent; Forbes frames Notion's strategy as breaking Microsoft and Google's workplace dominance.",
+      "sources": [
+        17
+      ]
+    }
+  ],
+  "thesis": [
+    {
+      "text": "AI looks like a real growth driver, not a feature. Reported ARR grew from $500M+ (Sep 2025) to $600M+ (Dec 2025), with about half tied to AI, and Sacra estimates $865M ARR by Jul 2026. Sacra's figure is an estimate, not a company disclosure.",
+      "sources": [
+        2,
+        3,
+        18
+      ]
+    },
+    {
+      "text": "Capital efficiency: the company is cash-flow positive, has raised only about $330M of primary capital, and gave no VC a board seat until 2026. That suggests discipline and low dilution.",
+      "sources": [
+        2,
+        5,
+        17
+      ]
+    },
+    {
+      "text": "The 100M+ user bottoms-up funnel and a flexible block/database model give it a structural distribution edge for land-and-expand into enterprises.",
+      "sources": [
+        7
+      ]
+    },
+    {
+      "text": "Agents open a usage-based revenue line on top of seats. Credits for Custom Agents (GA May 2026) could expand net revenue retention beyond headcount growth.",
+      "sources": [
+        8,
+        9
+      ]
+    },
+    {
+      "text": "IPO readiness is building: an independent board, a recent $11B secondary mark, and a reported IPO consideration as early as end-2026.",
+      "sources": [
+        1,
+        5,
+        6
+      ]
+    }
+  ],
+  "risks": [
+    {
+      "text": "Valuation has stalled while revenue grew: $10B in 2021, $10B in the 2022 tender and $11B in 2026. Bloomberg had earlier reported talks at $12B, which suggests buyer price discipline.",
+      "sources": [
+        2,
+        4
+      ]
+    },
+    {
+      "text": "Model dependency and margin pressure: Notion AI runs on third-party models (OpenAI, Anthropic), whose inference costs Notion does not control. Notion's AI gross margin is not publicly disclosed.",
+      "sources": [
+        3
+      ]
+    },
+    {
+      "text": "Bundling threat: Microsoft and Atlassian include AI in suites customers already pay for, which could cap Notion's AI pricing in large enterprises.",
+      "sources": [
+        3,
+        15
+      ]
+    },
+    {
+      "text": "Product sprawl and focus (red flag): Notion is shutting down Notion Mail on Sep 22, 2026, despite having bought Skiff in 2024, whose infrastructure later went into Notion Mail.",
+      "sources": [
+        10,
+        11
+      ]
+    },
+    {
+      "text": "Reliability at enterprise scale: third-party trackers log recurring incidents, including a roughly 3-hour outage on Oct 23, 2026 that blocked user access.",
+      "sources": [
+        19
+      ]
+    }
+  ],
+  "acquirers": [
+    {
+      "name": "Microsoft",
+      "reason": "It would neutralize the most direct M365/Loop challenger and gain a large bottoms-up user base; antitrust scrutiny would be heavy.",
+      "sources": [
+        3,
+        14
+      ]
+    },
+    {
+      "name": "Salesforce",
+      "reason": "It has a history of buying collaboration layers (Slack, Quip). Notion would add a knowledge and agent workspace to Agentforce. This is analytical.",
+      "sources": []
+    },
+    {
+      "name": "Google",
+      "reason": "It could close Workspace's gap in flexible docs/databases and agentic workflows against Microsoft. This is analytical.",
+      "sources": []
+    },
+    {
+      "name": "Atlassian",
+      "reason": "It would combine Confluence's enterprise footprint with Notion's prosumer and SMB funnel. At an $11B valuation the deal would be a stretch.",
+      "sources": [
+        1,
+        15
+      ]
+    },
+    {
+      "name": "Anthropic / OpenAI (strategic investor)",
+      "reason": "Notion is a major distribution surface for their models. A strategic stake is more plausible than an acquisition.",
+      "sources": [
+        3
+      ]
+    }
+  ],
+  "open_questions": [
+    "What is current ARR and its split between seat revenue, AI add-ons and agent credits? What is net revenue retention by segment?",
+    "What is gross margin with and without AI inference? How has it trended since agents went GA?",
+    "What share of ARR comes from enterprise contracts (more than $100K), and how fast are those cohorts growing compared with self-serve?",
+    "How concentrated is model supply (OpenAI vs Anthropic vs in-house)? What are the commercial terms and the plan if prices rise?",
+    "Where does Notion win and lose against Microsoft 365 Copilot/Loop and Confluence+Rovo in enterprise deals, and how does it compete on price there?",
+    "What did the Notion Mail shutdown teach about product focus? Which surfaces (Calendar, Sites, Forms, Agents) are core vs experimental?",
+    "What is the IPO timeline and readiness (audits, SOX controls, CFO bench)? Does the board expect another primary raise or tender?",
+    "What are uptime and SLA commitments for Enterprise, and what is the remediation plan after the 2026 outages?"
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "title": "Notion blog: GIC, Sequoia and Index purchase Notion shares (Jan 2026 tender, $270M at $11B)",
+      "url": "https://www.notion.com/ja/blog/gic-sequoia-index-purchase-notion-shares"
+    },
+    {
+      "id": 2,
+      "title": "Forbes (syndicated): Notion Kicks Off Employee Share Sale At $11 Billion Valuation As AI Accelerates Its Growth (Dec 2025)",
+      "url": "https://www.newsquantified.com/msft/stock-report/microsoft-corporation-notion-kicks-off-employee-share-0fens5"
+    },
+    {
+      "id": 3,
+      "title": "CNBC (syndicated): Notion rides AI boom to $500 million in annual revenue, but Microsoft competition looms (Sep 18, 2025)",
+      "url": "https://newsio.com/2025/09/18/notion-rides-ai-boom-to-500-million-in-annual-revenue-but-microsoft-competition-looms"
+    },
+    {
+      "id": 4,
+      "title": "SiliconANGLE: Productivity startup Notion valued at $10B in latest $275M funding round (Oct 8, 2021)",
+      "url": "https://siliconangle.com/2021/10/08/productivity-startup-notion-valued-10b-latest-275m-funding-round"
+    },
+    {
+      "id": 5,
+      "title": "Notion blog: Meet Notion's Board of Directors (Jun 2026)",
+      "url": "https://www.notion.com/blog/meet-notions-board-of-directors"
+    },
+    {
+      "id": 6,
+      "title": "Access IPOs: Notion IPO - Will Notion Stock Trade in 2026?",
+      "url": "https://accessipos.com/notion-stock-ipo/"
+    },
+    {
+      "id": 7,
+      "title": "Fortune: Notion design head Randy Hunt on building AI apps (Jun 12, 2026)",
+      "url": "https://dc.fortune.com/2026/06/12/it-isnt-our-goal-for-design-to-be-distinctive-says-notion-design-head-randy-hunt-on-prioritizing-quality-over-novelty-when-building-ai-apps/"
+    },
+    {
+      "id": 8,
+      "title": "Reworked: Notion Custom Agents reach general availability (May 2026)",
+      "url": "https://www.reworked.co/digital-workplace/notion-custom-agents-reach-general-availability/"
+    },
+    {
+      "id": 9,
+      "title": "Notion Help Center: Custom Agent pricing",
+      "url": "https://www.notion.com/help/custom-agent-pricing"
+    },
+    {
+      "id": 10,
+      "title": "Android Authority: Notion Mail is shutting down (Jun 2026)",
+      "url": "https://www.androidauthority.com/notion-mail-is-shutting-down-3681674/"
+    },
+    {
+      "id": 11,
+      "title": "TechCrunch: Notion acquires privacy-focused productivity platform Skiff (Feb 9, 2024)",
+      "url": "https://techcrunch.com/2024/02/09/notion-acquires-privacy-focused-productivity-platform-skiff/amp/"
+    },
+    {
+      "id": 12,
+      "title": "Wikipedia: Notion (productivity software)",
+      "url": "https://en.wikipedia.org/wiki/Notion_(productivity_software)"
+    },
+    {
+      "id": 13,
+      "title": "TechCrunch: Grammarly acquires productivity startup Coda, brings on new CEO (Dec 17, 2024)",
+      "url": "https://techcrunch.com/2024/12/17/grammarly-acquires-productivity-startup-coda-brings-on-new-CEO"
+    },
+    {
+      "id": 14,
+      "title": "Bullet: Microsoft Loop vs Notion (2026)",
+      "url": "https://bullet.so/blog/microsoft-loop-vs-notion/"
+    },
+    {
+      "id": 15,
+      "title": "eesel AI: Confluence vs Notion (2026)",
+      "url": "https://eesel.ai/blog/confluence-vs-notion"
+    },
+    {
+      "id": 16,
+      "title": "Grand View Research (via GII): Knowledge Management Software Market Size & Share",
+      "url": "https://www.gii.tw/report/grvi1814134-knowledge-management-software-market-size-share.html"
+    },
+    {
+      "id": 17,
+      "title": "Forbes Australia: $10 billion productivity startup Notion wants to build your AI everything app",
+      "url": "https://www.forbes.com.au/news/innovation/notion-wants-to-build-your-ai-everything-app/"
+    },
+    {
+      "id": 18,
+      "title": "Sacra: Notion at $865M/year growing 82% YoY (estimate, Jul 2026)",
+      "url": "https://sacra.com/research/notion-at-865m-year-growing-82-yoy/"
+    },
+    {
+      "id": 19,
+      "title": "Pulsetic: Notion status and incident history",
+      "url": "https://pulsetic.com/status/notion/"
+    },
+    {
+      "id": 20,
+      "title": "Automation Atlas: Best Notion alternatives in 2026",
+      "url": "https://automationatlas.io/answers/best-notion-alternatives-2026/"
+    }
+  ]
+}
