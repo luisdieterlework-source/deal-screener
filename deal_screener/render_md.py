@@ -12,6 +12,11 @@ DISCLAIMER = (
 UNVERIFIED = " *(unverified)*"
 
 
+def esc(text: str) -> str:
+    """Escape `$` so Markdown viewers (GitHub, Streamlit) don't render amounts as LaTeX math."""
+    return text.strip().replace("\\$", "$").replace("$", "\\$")
+
+
 def cite(ids: list[int], memo: Memo) -> str:
     """Render source ids as clickable footnote-style links, e.g. ` [[1]](https://...)`."""
     by_id = {s.id: s for s in memo.sources}
@@ -21,7 +26,7 @@ def cite(ids: list[int], memo: Memo) -> str:
 
 def claim_md(claim: Claim, memo: Memo) -> str:
     suffix = UNVERIFIED if is_uncited(claim) else ""
-    return f"{claim.text.strip()}{cite(claim.sources, memo)}{suffix}"
+    return f"{esc(claim.text)}{cite(claim.sources, memo)}{suffix}"
 
 
 def _bullets(claims: list[Claim], memo: Memo) -> list[str]:
@@ -37,7 +42,7 @@ def render_markdown(memo: Memo) -> str:
     meta = f"**Website:** {memo.website} · **As of:** {memo.as_of}"
     lines += [meta, ""]
     if memo.one_liner:
-        lines += [f"> {memo.one_liner.strip()}", ""]
+        lines += [f"> {esc(memo.one_liner)}", ""]
     lines += [f"*{DISCLAIMER}*", ""]
 
     lines += ["## 1. Company Snapshot", "", "| | |", "|---|---|"]
@@ -57,7 +62,7 @@ def render_markdown(memo: Memo) -> str:
     if memo.competitors:
         lines += ["", "**Key competitors**", ""]
         for c in memo.competitors:
-            claim = Claim(text=f"**{c.name}**: {c.note}", sources=c.sources)
+            claim = Claim(text=f"**{esc(c.name)}**: {c.note}", sources=c.sources)
             lines.append(f"- {claim_md(claim, memo)}")
     lines.append("")
 
@@ -66,17 +71,17 @@ def render_markdown(memo: Memo) -> str:
 
     lines += ["## 5. Potential Acquirers and Strategic Investors", ""]
     if memo.acquirers:
-        lines += [f"- **{a.name}**: {a.reason.strip()}{cite(a.sources, memo)}" for a in memo.acquirers]
+        lines += [f"- **{esc(a.name)}**: {esc(a.reason)}{cite(a.sources, memo)}" for a in memo.acquirers]
     else:
         lines.append("- Unknown: no obvious strategic buyers identified.")
     lines.append("")
 
     lines += ["## 6. Open Questions for Management", ""]
-    lines += [f"{i}. {q.strip()}" for i, q in enumerate(memo.open_questions, 1)] or ["1. (none)"]
+    lines += [f"{i}. {esc(q)}" for i, q in enumerate(memo.open_questions, 1)] or ["1. (none)"]
     lines.append("")
 
     lines += ["## 7. Sources", ""]
-    lines += [f"{src.id}. [{src.title.strip()}]({src.url})" for src in sorted(memo.sources, key=lambda x: x.id)]
+    lines += [f"{src.id}. [{esc(src.title)}]({src.url})" for src in sorted(memo.sources, key=lambda x: x.id)]
     if not memo.sources:
         lines.append("No sources were collected. Treat this memo as unverified.")
     return "\n".join(lines).rstrip() + "\n"
